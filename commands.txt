@@ -1,0 +1,7 @@
+# Migration
+`alembic revision --autogenerate -m 'initial'
+alembic upgrade head
+alembic downgrade -1
+
+
+alembic revision --autogenerate -m 'add data to options'
